@@ -1,0 +1,39 @@
+<section class="py-20 px-0 relative w-screen" id="portfolio">
+  <img
+    class="absolute h-full left-1/2 object-cover pointer-events-none top-0 transform -translate-x-1/2 w-[100vmax] z-[-1]"
+    src="./images/abstract-background.jpg"
+    alt="purple and blue abstract background"
+  />
+  <h2
+    class="font-normal m-0 pt-4 text-3xl text-center text-white"
+  >Portfolio</h2>
+  <div class="flex flex-row pt-12">
+    <div class="self-center max-w-[40%]">
+      <img
+        src="./images/big-data.jpg"
+        class="w-full h-[90%] object-cover animate-slideInLeft rounded-md"
+        alt="desktop with books and laptop"
+      />
+    </div>
+    <div
+      class="grid gap-5 grid-cols-[330px_300px] 300px my-5 mx-auto max-md:grid-cols-[1fr]"
+    >
+      {{#each projects}}
+        <div
+          class="bg-gray-200 rounded-xl border border-gray-300 flex flex-col justify-start py-6 px-4 text-center"
+        >
+          <a
+            class="hover:text-[#4e567e]"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3 class="font-normal m-0 text-lg">{{this.name}}</h3>
+          </a>
+          <p
+            class="text-sm mb-0 mt-4 leading-[1.5] font-light"
+          >{{this.desc}}</p>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

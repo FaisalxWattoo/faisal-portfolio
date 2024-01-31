@@ -1,0 +1,74 @@
+<section class="py-20 px-0 relative w-screen" id="portfolio">
+  <img
+    class="absolute h-full left-1/2 object-cover pointer-events-none top-0 transform -translate-x-1/2 w-[100vmax] z-[-1]"
+    src="./images/abstract-background.jpg"
+    alt="purple and blue abstract background"
+  />
+  <h2
+    class="font-normal text-white m-0 pt-4 text-3xl text-center"
+  >Portfolio</h2>
+  <div class="flex flex-row pt-12">
+    <div class="self-center max-w-[40%]">
+      <img
+        src="./images/big-data.jpg"
+        class="w-full h-[90%] object-cover animate-slideInLeft rounded-md"
+        alt="desktop with books and laptop"
+      />
+    </div>
+    <div
+      class="grid gap-5 grid-cols-[330px_300px] 300px my-5 mx-auto max-md:grid-cols-[1fr]"
+    >
+      <div
+        class="bg-gray-200 rounded-xl border border-gray-300 flex flex-col justify-start py-6 px-4 text-center"
+      >
+        <a
+          class="hover:text-[#4e567e]"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3 class="font-normal m-0 text-lg">Enterprise Global Athletic Wear
+            Company</h3>
+        </a>
+        <p class="text-sm mb-0 mt-4 leading-[1.5] font-light">Developed Spark
+          streaming pipelines in Databricks for seamless ingestion from Azure
+          Data Lake Storage, EventHub, and Service Bus. Implemented a
+          specialized Azure DevOps pipeline in Bash and Python responsible for
+          migrating workflows/jobs between Databricks workspaces.</p>
+      </div>
+      <div
+        class="bg-gray-200 rounded-xl border border-gray-300 flex flex-col justify-start py-6 px-4 text-center"
+      >
+        <a
+          class="hover:text-[#4e567e]"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3 class="font-normal m-0 text-lg">Redex</h3>
+        </a>
+        <p class="text-sm mb-0 mt-4 leading-[1.5] font-light">Architected and
+          implemented a standard S3-based datalake with raw, curated, and
+          semantic layers, leveraging AWS Glue as the compute infrastructure
+          Designed an asynchronous data ingestion process from the landing
+          layer, populated through external Census Data API invocations,
+          ensuring efficient and timely data capture into the raw layer</p>
+      </div>
+      <div
+        class="bg-gray-200 rounded-xl border border-gray-300 flex flex-col justify-start py-6 px-4 text-center"
+      >
+        <a
+          class="hover:text-[#4e567e]"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3 class="font-normal m-0 text-lg">FlashIntel</h3>
+        </a>
+        <p class="text-sm mb-0 mt-4 leading-[1.5] font-light">Developed and
+          implemented AWS Glue and EMR-based Incremental ETL pipelines,
+          extracting data from various sources including RDS and S3,
+          transforming it, and persisting it to multiple sinks such as Redshift
+          and Delta Tables, while also utilizing services like Athena and
+          Redshift Spectrum for Ad-Hoc querying and data exploration</p>
+      </div>
+    </div>
+  </div>
+</section>

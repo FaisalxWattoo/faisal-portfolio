@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faisal Riaz | Software Engineer</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-montserrat p-0 m-0 h-full overflow-x-hidden w-full">
+    <div>
+      <div class="flex flex-col w-screen">
+        <div
+          id="navbar"
+          class="fixed flex justify-center gap-8 p-4 top-0 w-full z-10 bg-opacity-75 bg-white"
+        >
+          <a href="#home" class="hover:text-[#4e567e]">Home</a>
+          <a href="#about" class="hover:text-[#4e567e]">About</a>
+          <a href="#portfolio" class="hover:text-[#4e567e]">Portfolio</a>
+          <a href="#footer" class="hover:text-[#4e567e]">Contact</a>
+        </div>
+        <section id="home" class="min-h-screen relative w-screen">
+          <img
+            class="absolute h-full left-1/2 object-cover pointer-events-none top-0 transform -translate-x-1/2 w-[100vmax] z-[-1]"
+            src="./images/medium-shot.jpg"
+            alt="background-image"
+          />
+          <div class="absolute top-20 left-8 w-64">
+            <h1
+              class="text-[#f0f8ff] whitespace-nowrap font-cormorant-garamond text-8xl font-normal m-0 max-md:text-4xl"
+            >
+              Faisal Riaz
+            </h1>
+            <h2
+              class="text-[#f0f8ff] whitespace-nowrap font-normal m-0 pt-4 text-3xl"
+            >
+              Software Engineer
+            </h2>
+          </div>
+          <div class="absolute left-1/2 bottom-12">
+            <a href="#about"
+              ><img
+                src="./images/down-arrow.svg"
+                class="h-12 w-12 hover:animate-bounce max-md:h-8 max-md:w-8"
+                alt="arrow-image"
+            /></a>
+          </div>
+        </section>
+        <section class="py-20 px-0 relative w-screen" id="about">
+          <img
+            class="absolute h-full left-1/2 object-cover pointer-events-none top-0 transform -translate-x-1/2 w-[100vmax] z-[-1]"
+            src="./images/smart.jp"
+            alt="purple and blue abstract background"
+          />
+          <div class="bg-white w-3/5 p-16 text-center my-12 mx-auto max-md:p-8">
+            <h2 class="font-normal m-0 pt-4 text-4xl">About Myself</h2>
+            <p class="text-2xl font-light mb-0 mt-4 leading-[1.5]">
+              I'm a Software Engineering student studying at National University
+              of Sciences and Technology. With 2.2 x years of experience in Data
+              Engineering providing both on-premise and cloud-based solutions
+            </p>
+            <hr class="m-10" />
+            <ul
+              class="text-left columns-2 text-base my-8 mx-12 gap-12 list-outside list-disc max-md:columns-1 max-md:text-base max-md:my-4 max-md:mx-auto"
+            >
+              <li class="leading-[1.7]">Data Engineering</li>
+              <li class="leading-[1.7]">Spark streaming Pipeline</li>
+              <li class="leading-[1.7]">Problem-Solving</li>
+              <li class="leading-[1.7]">Database Management</li>
+              <li class="leading-[1.7]">ETL Pipeline</li>
+              <li class="leading-[1.7]">Azure Data Factory (ADF) Pipelines</li>
+            </ul>
+            <hr class="m-10" />
+            <p
+              class="px-12 pb-0 pt-4 text-[1.5] font-light mb-0 mt-4 leading-[1.5]"
+            >
+              Azure Certified Data Engineer Associate with sound analytical and
+              data engineering capabilities, having hands on experience across
+              multiple Data Platforms including Azure Cloud, AWS Cloud and
+              Open-Source Apache technologies (HDFS, Spark, Hive)
+            </p>
+          </div>
+        </section>
+        <section class="py-20 px-0 relative w-screen" id="portfolio">
+          <h2 class="font-normal m-0 pt-4 text-3xl text-center">Portfolio</h2>
+          <div class="flex flex-row pt-12">
+            <div class="self-center max-w-[40%]">
+              <img
+                src="./images/big-data.jpg"
+                class="w-full h-[90%] object-cover animate-slideInLeft"
+                alt="desktop with books and laptop"
+              />
+            </div>
+            <div
+              class="grid gap-5 grid-cols-[330px_300px] 300px my-5 mx-auto max-md:grid-cols-[1fr]"
+            >
+              <div
+                class="rounded-xl border border-gray-300 flex flex-col justify-start py-6 px-4 text-center"
+              >
+                <a
+                  class="hover:text-[#4e567e]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3 class="font-normal m-0 text-lg">
+                    Enterprise Global Athletic Wear Company
+                  </h3>
+                </a>
+                <p class="text-sm mb-0 mt-4 leading-[1.5] font-light">
+                  Developed Spark streaming pipelines in Databricks for seamless
+                  ingestion from Azure Data Lake Storage, EventHub, and Service
+                  Bus. Implemented a specialized Azure DevOps pipeline in Bash
+                  and Python responsible for migrating workflows/jobs between
+                  Databricks workspaces.
+                </p>
+              </div>
+              <div
+                class="rounded-xl border border-gray-300 flex flex-col justify-start py-6 px-4 text-center"
+              >
+                <a
+                  class="hover:text-[#4e567e]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3 class="font-normal m-0 text-lg">Redex</h3>
+                </a>
+                <p class="text-sm mb-0 mt-4 leading-[1.5] font-light">
+                  Architected and implemented a standard S3-based datalake with
+                  raw, curated, and semantic layers, leveraging AWS Glue as the
+                  compute infrastructure Designed an asynchronous data ingestion
+                  process from the landing layer, populated through external
+                  Census Data API invocations, ensuring efficient and timely
+                  data capture into the raw layer
+                </p>
+              </div>
+              <div
+                class="rounded-xl border border-gray-300 flex flex-col justify-start py-6 px-4 text-center"
+              >
+                <a
+                  class="hover:text-[#4e567e]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3 class="font-normal m-0 text-lg">FlashIntel</h3>
+                </a>
+                <p class="text-sm mb-0 mt-4 leading-[1.5] font-light">
+                  Developed and implemented AWS Glue and EMR-based Incremental
+                  ETL pipelines, extracting data from various sources including
+                  RDS and S3, transforming it, and persisting it to multiple
+                  sinks such as Redshift and Delta Tables, while also utilizing
+                  services like Athena and Redshift Spectrum for Ad-Hoc querying
+                  and data exploration
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          id="footer"
+          class="flex flex-col items-center gap-10 pt-20 pb-12 px-0 bg-[#4E567E] w-screen"
+        >
+          <div class="flex justify-center gap-10">
+            <a href="mailto:faisalwattoo475@gmail.com">
+              <img
+                src="./images/socials/envelope.svg"
+                alt="email"
+                class="h-8 w-8"
+              />
+            </a>
+            <a
+              href="https://github.com/faisalxWattoo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./images/socials/github.svg"
+                alt="GitHub"
+                class="h-8 w-8"
+              />
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img
+                src="./images/socials/instagram.svg"
+                alt="Instagram"
+                class="h-8 w-8"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/faisal-r-wattoo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./images/socials/linkedin.svg"
+                alt="LinkedIn"
+                class="h-8 w-8"
+              />
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img
+                src="./images/socials/twitter.svg"
+                alt="Twitter"
+                class="h-8 w-8"
+              />
+            </a>
+          </div>
+          <p class="text-sm mt-0 text-white">Created by Faisal Riaz</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<section class="py-20 px-0 relative w-screen" id="about">
+  <img
+    class="absolute h-full left-1/2 object-cover pointer-events-none top-0 transform -translate-x-1/2 w-[100vmax] z-[-1]"
+    src="./images/smart.jpg"
+    alt="purple and blue abstract background"
+  />
+  <div
+    class="bg-gray-200 rounded-md w-3/5 p-16 text-center my-12 mx-auto max-md:p-8"
+  >
+    <h2 class="font-normal m-0 pt-4 text-4xl">About Myself</h2>
+    <p class="text-2xl font-light mb-0 mt-4 leading-[1.5]">{{mainAboutDesc}}</p>
+    <hr class="m-10" />
+    <ul
+      class="text-left columns-2 text-base my-8 mx-12 gap-12 list-outside list-disc max-md:columns-1 max-md:text-base max-md:my-4 max-md:mx-auto"
+    >
+      {{#each aboutSkills}}
+        <li class="leading-[1.7]">{{this}}</li>
+      {{/each}}
+
+    </ul>
+    <hr class="m-10" />
+    <p
+      class="px-12 pb-0 pt-4 text-[1.5] font-light mb-0 mt-4 leading-[1.5]"
+    >{{secAboutDesc}}</p>
+  </div>
+</section>

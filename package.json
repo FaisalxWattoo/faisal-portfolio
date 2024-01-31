@@ -1,0 +1,22 @@
+{
+  "name": "faisal_riaz_portfolio_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/App.js -e js,hbs",
+    "Taiwlind": "npx tailwindcss -i /src/input.css -o ../public/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}
