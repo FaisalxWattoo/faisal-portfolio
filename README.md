@@ -11,8 +11,6 @@
 
    ````shell
    git clone  https://github.com/FaisalxWattoo/faisal-portfolio.git
-   ```
-
    ````
 
 2. Install dependencies:
@@ -20,8 +18,6 @@
    ````shell
    cd faisal-portfolio
    npm install
-   ```
-
    ````
 
 3. Run the application:
@@ -30,5 +26,5 @@
    npm start
    ```
 
-   The application will be accessible at [http://localhost:8080](http://localhost:8080).
+   The application will be accessible at [http://localhost:8080].
    ````
